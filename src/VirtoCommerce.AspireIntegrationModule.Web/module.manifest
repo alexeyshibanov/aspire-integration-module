@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+  <id>VirtoCommerce.AspireIntegration</id>
+  <version>0.1.0</version>
+  <version-tag/>
+
+  <platformVersion>3.917.0</platformVersion>
+
+  <dependencies/>
+
+  <title>VirtoCommerce Aspire integration module</title>
+  <description>Aspire integration - provides OpenTelemetry, health checks, and service discovery</description>
+
+  <authors>
+    <author>Alexey Shibanov</author>
+  </authors>
+
+  <owners>
+    <owner>VirtoCommerce</owner>
+  </owners>
+
+  <projectUrl>https://github.com/alexeyshibanov/aspire-integration-module.git</projectUrl>
+  <iconUrl>Modules/$(VirtoCommerce.AspireIntegration)/Content/logo.png</iconUrl>
+  <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+  <assemblyFile>VirtoCommerce.AspireIntegrationModule.Web.dll</assemblyFile>
+  <moduleType>VirtoCommerce.AspireIntegrationModule.Web.Module, VirtoCommerce.AspireIntegrationModule.Web</moduleType>
+
+  <releaseNotes>First version.</releaseNotes>
+  <copyright>Copyright © 2025 VirtoCommerce. All rights reserved</copyright>
+  <tags>Aspire integration</tags>
+
+  <useFullTypeNameInSwagger>false</useFullTypeNameInSwagger>
+</module>
