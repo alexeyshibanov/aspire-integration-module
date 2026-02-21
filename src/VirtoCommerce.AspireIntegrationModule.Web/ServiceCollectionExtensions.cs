@@ -34,11 +34,7 @@ public static class ServiceCollectionExtensions
                 tracing.AddAspNetCoreInstrumentation()
                     .AddHttpClientInstrumentation()
                     .AddHangfireInstrumentation()
-                    .AddEntityFrameworkCoreInstrumentation(options =>
-                    {
-                        options.SetDbStatementForText = true;
-                        options.SetDbStatementForStoredProcedure = true;
-                    })
+                    .AddEntityFrameworkCoreInstrumentation()
                     .AddElasticsearchClientInstrumentation(options =>
                     {
                         options.SuppressDownstreamInstrumentation = true;
